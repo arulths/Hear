@@ -1,0 +1,21 @@
+<ons-page>
+    <ons-toolbar>
+      <div class="center">{{title}}</div>
+      <div class="left">
+        <ons-toolbar-button>
+          <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+        </ons-toolbar-button>
+      </div>
+    </ons-toolbar>
+    <div class="content">
+      <p style="text-align: center">
+      </p>
+    </div>
+  </ons-page>
+
+    <ons-splitter>
+    <ons-splitter-side [page]="sidePage" side="left" width="200px" style="border-right: 1px solid #ccc">
+    </ons-splitter-side>
+
+    <ons-splitter-content [page]="contentPage">
+    </ons-splitter-content>
